@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]]
+modId="df4"
+version="${file.jarVersion}"
+displayName="Mob Controller"
+credits="anar4732"
+authors="anar4732"
+description='''
+
+'''
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.1.0,)"
+    ordering="NONE"
+    # BOTH, CLIENT, SERVER
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,)"
+    ordering="NONE"
+    side="BOTH"

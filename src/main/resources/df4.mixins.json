@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "anar4732.df4.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "df4.refmap.json",
+  "mixins": [
+    "Mixins$Mixin1"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
